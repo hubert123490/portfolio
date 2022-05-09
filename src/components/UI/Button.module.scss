@@ -1,0 +1,21 @@
+@import "./../../styles/variables.scss";
+
+.button {
+  font: inherit;
+  border: 1px solid $background;
+  background: $background;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  border-radius: 1px;
+}
+
+.button:hover,
+.button:active {
+  background: $primary;
+  border-color: $primary;
+}
+
+.button:focus {
+  outline: none;
+}
