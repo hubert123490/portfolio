@@ -1,0 +1,19 @@
+@import "./../../styles/variables.scss";
+
+.thanks {
+    background-color: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: calc(100vh - (#{$header-height} + #{$footer-height}));
+
+    & h1 {
+        font-size: 3rem;
+    }
+
+    &__alert {
+        color: red;
+    }
+}
