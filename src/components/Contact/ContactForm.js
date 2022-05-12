@@ -8,7 +8,7 @@ const ContactForm = () => {
       method="POST"
     >
       <input type="hidden" name="_subject" value="Job message" />
-      <input type="hidden" name="_next" value="https://hubert123490.github.io/portfolio/#/thanks" />
+      <input type="hidden" name="_next" value="https://hubert123490.github.io/portfolio/" />
       <input type="hidden" name="_autoresponse" value="Thanks! I will contact you shortly."></input>
       <div className={classes["form__row"]}>
         <label>Your email address</label>
