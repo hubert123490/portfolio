@@ -1,0 +1,41 @@
+@import "./../../styles/variables.scss";
+
+.experience {
+  width: 80%;
+  margin: 1rem 0;
+  border: 4px solid $dark;
+  position: relative;
+  border-left: none;
+
+  @include breakpoint(md) {
+    border-left: 4px solid $dark;
+  }
+
+  &__container {
+    display: block;
+    padding: 2rem;
+  }
+
+  &__subtitle {
+    color: #979797;
+  }
+
+  &__info {
+    padding: 1rem;
+    border: 1px solid #0e4f1f;
+    color: #0e4f1f;
+    background: white;
+    font-size: 1.2rem;
+  }
+}
+
+.right-align {
+  align-self: flex-end;
+  text-align: right;
+  border-left: 4px solid $dark;
+  border-right: none;
+
+  @include breakpoint(md) {
+    border-right: 4px solid $dark;
+  }
+}
