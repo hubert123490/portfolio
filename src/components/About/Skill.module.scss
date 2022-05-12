@@ -1,0 +1,14 @@
+@import "./../../styles/variables.scss";
+
+.skills__list--item {
+  padding: 2rem;
+
+    & img {
+        width: 100px;
+        height: 100px;
+    }
+
+  & h1 {
+    color: $strap;
+  }
+}
