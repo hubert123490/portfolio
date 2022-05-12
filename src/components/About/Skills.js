@@ -7,12 +7,12 @@ const Skills = () => {
       <div className={classes["skills__label"]}>
         <h1>Skills</h1>
         <ul className={classes["skills__list"]}>
-          <Skill logo="/logos/github.png" >Git</Skill>
-          <Skill logo="/logos/java.png" >Java</Skill>
-          <Skill logo="/logos/web.png" >css/scss, JavaScript / TypeScript</Skill>
-          <Skill logo="/logos/cs.png" >C# / .Net</Skill>
-          <Skill logo="/logos/spring.png" >Spring boot</Skill>
-          <Skill logo="/logos/react.png" >React</Skill>
+          <Skill logo="logos/github.png" >Git</Skill>
+          <Skill logo="logos/java.png" >Java</Skill>
+          <Skill logo="logos/web.png" >css/scss, JavaScript / TypeScript</Skill>
+          <Skill logo="logos/cs.png" >C# / .Net</Skill>
+          <Skill logo="logos/spring.png" >Spring boot</Skill>
+          <Skill logo="logos/react.png" >React</Skill>
         </ul>
       </div>
     </section>

@@ -4,7 +4,7 @@ const AboutHeader = () => {
   return (
     <div className={classes["header"]}>
       <div className={classes["circle"]}>
-        <img src="/assets/CV_photo.jpg" alt="CV"/>
+        <img src="assets/CV_photo.jpg" alt="CV"/>
       </div>
       <div className={classes["introduction"]}>
         <h1>Introduction</h1>

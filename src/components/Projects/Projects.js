@@ -8,7 +8,7 @@ const Projects = () => {
         <h1>Projects</h1>
       </div>
       <Project
-        imagePath="/assets/learning-system.png"
+        imagePath="assets/learning-system.png"
         imageAlt="E-learning platform"
         projectName="E-learning platform"
         projectUrl="https://learning-system-react.herokuapp.com/"
@@ -22,7 +22,7 @@ const Projects = () => {
       </Project>
       <Project
         even={true}
-        imagePath="/assets/pms.png"
+        imagePath="assets/pms.png"
         imageAlt="Property managment system"
         projectName="Property managment system"
         projectUrl="https://pms-vue.herokuapp.com/en/"
@@ -36,7 +36,7 @@ const Projects = () => {
         for it using Stripe payment provider. It support 2 languages: polish and english. 
       </Project>
       <Project
-        imagePath="/assets/GitHub_Logo.png"
+        imagePath="assets/GitHub_Logo.png"
         imageAlt="Github projects"
         projectName="GitHub"
         projectUrl="https://github.com/hubert123490"
