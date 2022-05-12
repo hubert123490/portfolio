@@ -41,7 +41,7 @@ const Header = () => {
           className={classes["header__content--logo"]}
           onClick={menuToggleHandler}
         >
-          navbar
+          LGTM
         </Link>
 
         <nav
@@ -51,21 +51,26 @@ const Header = () => {
           <ul>
             <li>
               <Link to="/" onClick={menuToggleHandler}>
-                Page one
+                Home
               </Link>
             </li>
             <li>
-              <Link to="/a" onClick={menuToggleHandler}>
-                Page two
+              <Link to="/about" onClick={menuToggleHandler}>
+                About
               </Link>
             </li>
             <li>
-              <Link to="/sd" onClick={menuToggleHandler}>
-                Page three
+              <Link to="/projects" onClick={menuToggleHandler}>
+                Projects
               </Link>
+            </li>
+            <li>
+              <a href="https://github.com/hubert123490" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
             </li>
           </ul>
-          <Button className={classes["button"]}>CTA Page</Button>
+          <Link to="/contact" onClick={menuToggleHandler}><Button className={classes["button"]}>Contact</Button></Link>
         </nav>
         <div className={classes["header__content--toggle"]}>
           {!isMenuOpen ? (
