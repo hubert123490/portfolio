@@ -11,9 +11,9 @@ const WorkExperience = (props) => {
         <h2 className={classes["experience__subtitle"]}>
           {props.company}
         </h2>
-        <p className={classes["experience__info"]}>
+        <div className={classes["experience__info"]}>
          {props.children}
-        </p>
+        </div>
       </div>
     </section>
   );
