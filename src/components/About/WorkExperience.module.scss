@@ -6,9 +6,11 @@
   border: 4px solid $dark;
   position: relative;
   border-left: none;
+  width: 100%;
 
   @include breakpoint(md) {
     border-left: 4px solid $dark;
+    width: 80%;
   }
 
   &__container {
